@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f4f4f4; */
+    background-image: linear-gradient(rgb(243, 155, 155),rgb(137, 137, 245),rgb(158, 247, 158));
+    color: #333;
+}
+
+.hero {
+    background: url('https://wallpaperaccess.com/full/1702498.jpg') center/cover no-repeat;
+    color: rgb(113, 110, 110);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+h1:hover{
+    color: red;
+}
+
+.anime-list {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.anime-list h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.anime-card {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.anime-card img {
+    width: 100%;
+    height: auto;
+}
+
+.anime-card h3 {
+    margin: 10px 0 5px 0;
+}
+
+.anime-card p {
+    padding: 0 10px 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* img{
+    transition-duration: 3s;
+}
+
+img:hover{
+    height: 200px;
+    width: 200px;
+} */
+.anime-card{
+    transition: 2s;
+}
+.anime-card:hover{
+    height: 300px;
+    width: 300px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
